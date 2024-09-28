@@ -19,19 +19,19 @@ API para gestionar capítulos de la serie "Stranger Things", desarrollada con No
 
 * Listar capítulos: 
 
-    GET /api/stranger_things
+      GET /api/stranger_things
 
 * Insertar un capítulo:
 
-POST /api/stranger_things
+      POST /api/stranger_things
 
 * Actualizar un capítulo:
 
-PUT /api/stranger_things/:id
+      PUT /api/stranger_things/:id
 
 * Eliminar un capítulo:
 
-DELETE /api/stranger_things/:id
+      DELETE /api/stranger_things/:id
 
 ## Uso
 
