@@ -1,0 +1,24 @@
+{
+  "name": "modulo-4-evaluacion-final-bpw-alexlab84",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "author": "alexlab84",
+  "license": "ISC",
+  "description": "Api_capitulos_stranger_things",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3"
+  },
+  "keywords": [
+    "adalab",
+    "strangers things",
+    "modulo 4"
+  ]
+}
