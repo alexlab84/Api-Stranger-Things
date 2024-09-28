@@ -3,36 +3,36 @@
 
 API para gestionar capítulos de la serie "Stranger Things", desarrollada con Node.js, Express y MySQL.
 
-Instalación:
+## Instalación:
 
-Clona el repositorio.
+1. Clona el repositorio.
 
-Instala las dependencias del proyecto.
+2. Instala las dependencias del proyecto.
 
-Configura la conexión a MySQL.
+3. Configura la conexión a MySQL.
 
-Crea la base de datos y la tabla para los capítulos.
+4. Crea la base de datos y la tabla para los capítulos.
 
-Inicia el servidor.
+5. Inicia el servidor.
 
-Endpoints:
+## Endpoints:
 
-Listar capítulos: 
+* Listar capítulos: 
 
 GET /api/stranger_things
 
-Insertar un capítulo:
+* Insertar un capítulo:
 
 POST /api/stranger_things
 
-Actualizar un capítulo:
+* Actualizar un capítulo:
 
 PUT /api/stranger_things/:id
 
-Eliminar un capítulo:
+* Eliminar un capítulo:
 
 DELETE /api/stranger_things/:id
 
-Uso
+## Uso
 
 Puedes interactuar con la API usando herramientas como Postman.
