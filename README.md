@@ -1,5 +1,5 @@
 
-Stranger Things API
+# Stranger Things API
 
 API para gestionar capítulos de la serie "Stranger Things", desarrollada con Node.js, Express y MySQL.
 
@@ -34,4 +34,5 @@ Eliminar un capítulo:
 DELETE /api/stranger_things/:id
 
 Uso
+
 Puedes interactuar con la API usando herramientas como Postman.
