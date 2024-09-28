@@ -19,7 +19,7 @@ API para gestionar capítulos de la serie "Stranger Things", desarrollada con No
 
 * Listar capítulos: 
 
-GET /api/stranger_things
+    GET /api/stranger_things
 
 * Insertar un capítulo:
 
