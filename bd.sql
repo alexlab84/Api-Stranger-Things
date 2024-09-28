@@ -76,3 +76,19 @@ DEFAULT CHARACTER SET = utf8mb3;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+CREATE TABLE `stranger_things`.`usuarias` (
+  `id` INT NOT NULL,
+  `email` VARCHAR(250) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  `nombre` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE,
+  UNIQUE INDEX `password_UNIQUE` (`password` ASC) VISIBLE);
+
+ALTER TABLE `stranger_things`.`usuarias` 
+CHANGE COLUMN `password` `password` CHAR(60) NOT NULL ;
+
+ALTER TABLE `stranger_things`.`usuarias` 
+CHANGE COLUMN `id` `id` INT NOT NULL AUTO_INCREMENT ;
